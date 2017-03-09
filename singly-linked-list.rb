@@ -3,7 +3,7 @@
 
 # traverse the list and make the node's next pointer the key in a hash and the value 1 (representing that the node has been visited once). 
 #After the entire list has been traversed, check to see if there are any nil values
-	# If there are nil values then return false
+	# If there is a nil value at the end then return false
 	# If there is a value that is greater than 1 then return true
 
 class LinkedListNode
